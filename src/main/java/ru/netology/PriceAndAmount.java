@@ -85,6 +85,5 @@ public class PriceAndAmount implements IntPriceAndAmount , Comparable {
         } else if (this.purchasedOnce == that.purchasedOnce) {
             return 0;
         } else return -1;
-
     }
 }
